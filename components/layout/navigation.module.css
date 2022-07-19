@@ -17,6 +17,10 @@
 .item {
   display: inline;
 }
+.anchor {
+  text-decoration: none;
+  color: black;
+}
 .left {
   grid-column: 1 / span 1;
   display: flex;
