@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300');
+body {
+  font-family: 'Cormorant Garamond', serif;
+  margin: 0 auto;
+  padding: 0;
+  min-height: -webkit-fill-available;
+  max-height: 100vh;
+  min-height: 100vh;
+  height: 100vh !important;
+}
+
+html {
+  height: -webkit-fill-available;
+}

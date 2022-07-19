@@ -1,5 +1,13 @@
+import Head from "next/head";
 function HomePage() {
-  return <div>Welcome to David.js!</div>;
+  return (
+    <div>
+    <Head>
+      <title>Garcia: Taller | Creations</title>
+    </Head>
+    
+
+    </div>)
 }
 
 export default HomePage;
