@@ -17,11 +17,8 @@
   padding: 0;
   margin: 0;
 }
-
-.center > p {
-  font-size: 1.5rem;
-}
 .para {
   word-wrap: normal;
   width: 30%;
+  font-size: 1.5rem;
 }
