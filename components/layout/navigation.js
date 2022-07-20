@@ -6,10 +6,10 @@ function Navigation() {
       <div className={styles.left}>
         <img src="./logoDavid.png" width={100} className={styles.logo} />
       </div>
-      <ul className={styles.list}>
+      <ul className={styles.listRight}>
         <li className={styles.item}>
           <Link href="/">
-            <a className={styles.anchor} title="home">Casa</a>
+            <a className={styles.anchor} title="home">Home</a>
           </Link>
         </li>
         <li className={styles.item}>
