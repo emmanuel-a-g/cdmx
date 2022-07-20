@@ -14,9 +14,9 @@ function HomePage() {
         <title>Garcia: Taller | Creations</title>
       </Head>
       <First />
-      <Carousel />
       <TheSlider />
       <Showroom />
+      <Carousel />
       <Subtitulo />
       <HorizontalProducts />
       <Nosotros />

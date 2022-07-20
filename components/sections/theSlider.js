@@ -2,7 +2,7 @@ import styles from "./theSlider.module.css";
 function TheSlider() {
   return (
     <div className={styles.mainSlider}>
-      <p>Something goes here....</p>
+      <p>Creamos lo que te imagines....</p>
     </div>
   )
 }
