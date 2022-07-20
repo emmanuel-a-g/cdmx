@@ -1,11 +1,11 @@
 import TextSlider from "../utils/textSlider";
 function Quote() {
   let data = [
-    "1: helloooo",
-    "2: chaoooooooo",
-    "3: merciiiiiiiii",
-    "4: privioooooot",
-    "5: holaaaaaa",
+    "Productos",
+    "Servicio",
+    "Honestidad",
+    "Calidad",
+    "Respeto",
   ];
 
   return <TextSlider data={data} />;

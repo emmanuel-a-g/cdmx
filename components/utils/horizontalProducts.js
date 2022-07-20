@@ -29,7 +29,7 @@ function HorizontalProducts() {
         <div className={styles.imageDivOne}></div>
         <div className={styles.titulo}>
           Titulo Silver y Hecho
-          <span className={one ? styles.precioActive : styles.precio}>$1000</span>
+          <span className={one ? styles.precioActive : styles.precio}>$900</span>
         </div>
       </div>
       <div
@@ -40,7 +40,7 @@ function HorizontalProducts() {
         <div className={styles.imageDivTwo}></div>
         <div className={styles.titulo}>
           Titulo Gold y Madera
-          <span className={two ? styles.precioActive : styles.precio}>$1000</span>
+          <span className={two ? styles.precioActive : styles.precio}>$1500</span>
         </div>
       </div>
       <div
@@ -62,7 +62,7 @@ function HorizontalProducts() {
         <div className={styles.imageDivFour}></div>
         <div className={styles.titulo}>
           Titulo Gold y Jolla
-          <span className={four ? styles.precioActive : styles.precio}>$1000</span>
+          <span className={four ? styles.precioActive : styles.precio}>$2000</span>
         </div>
       </div>
     </div>

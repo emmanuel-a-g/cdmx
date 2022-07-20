@@ -22,6 +22,9 @@
   justify-content: center;
   align-items: center;
 }
+.topRight > p {
+  text-align: center;
+}
 .bottomLeft {
   grid-row: 2 / span 1;
   grid-column: 1 / span 1;
@@ -31,6 +34,9 @@
   font-size: 1.5rem;
   justify-content: center;
   align-items: center;
+}
+.bottomLeft > p {
+  text-align: center;
 }
 .bottomRight {
   grid-row: 2 / span 1;

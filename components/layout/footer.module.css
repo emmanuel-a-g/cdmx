@@ -1,5 +1,7 @@
 .footer {
   height: 30vh;
+  display: flex;
+  flex-direction: column;
 }
 .footerDiv {
   display: grid;
@@ -16,4 +18,19 @@
 .more {
   text-align: center;
   height: 5vh;
+}
+@media only screen and (max-width: 900px) {
+  .footer {
+    height: auto;
+  }
+  .footerDiv {
+    font-size: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .more {
+    height: none;
+    font-size: 0.75rem;
+  }
 }
