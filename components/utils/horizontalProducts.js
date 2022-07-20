@@ -7,15 +7,15 @@ function HorizontalProducts() {
   const [three, setThree] = useState(false);
   const [four, setFour] = useState(false);
 
-  const showPrice = (number) => {
+  const showPrice = (number, to) => {
     if (number === "1") {
-      setOne(!one)
+      setOne(to)
     } else if (number === "2") {
-      setTwo(!two)
+      setTwo(to)
     } else if (number === "3") {
-      setThree(!three)
-    } else {
-      setFour(!four)
+      setThree(to)
+    } else if (number === "4") {
+      setFour(to)
     }
   };
 
@@ -23,8 +23,8 @@ function HorizontalProducts() {
     <div className={styles.horizontal}>
       <div
         className={`${styles.card} ${styles.one}`}
-        onMouseEnter={() => showPrice("1")}
-        onMouseLeave={() => showPrice("1")}
+        onMouseEnter={() => showPrice("1", true)}
+        onMouseLeave={() => showPrice("1", false)}
       >
         <div className={styles.imageDivOne}></div>
         <div className={styles.titulo}>
@@ -34,8 +34,8 @@ function HorizontalProducts() {
       </div>
       <div
         className={`${styles.card} ${styles.two}`}
-        onMouseEnter={() => showPrice("2")}
-        onMouseLeave={() => showPrice("2")}
+        onMouseEnter={() => showPrice("2", true)}
+        onMouseLeave={() => showPrice("2", false)}
       >
         <div className={styles.imageDivTwo}></div>
         <div className={styles.titulo}>
@@ -45,8 +45,8 @@ function HorizontalProducts() {
       </div>
       <div
         className={`${styles.card} ${styles.three}`}
-        onMouseEnter={() => showPrice("3")}
-        onMouseLeave={() => showPrice("3")}
+        onMouseEnter={() => showPrice("3", true)}
+        onMouseLeave={() => showPrice("3", false)}
       >
         <div className={styles.imageDivThree}></div>
         <div className={styles.titulo}>
@@ -56,8 +56,8 @@ function HorizontalProducts() {
       </div>
       <div
         className={`${styles.card} ${styles.four}`}
-        onMouseEnter={() => showPrice("4")}
-        onMouseLeave={() => showPrice("4")}
+        onMouseEnter={() => showPrice("4", true)}
+        onMouseLeave={() => showPrice("4", false)}
       >
         <div className={styles.imageDivFour}></div>
         <div className={styles.titulo}>
