@@ -7,8 +7,8 @@ function Nosotros() {
         <div className={styles.leftDiv}>
           <h3>GARCIA FAMILY & VALUES: </h3>
           <p>
-            Todo se puede hacer si juntos lo hacemos, tradicion de trabajo en
-            conjunto, etc, etc.
+            Todo se puede hacer si juntos lo hacemos, la tradicion de trabajo en
+            conjunto nos une.
           </p>
         </div>
         <div className={styles.rightDiv}></div>

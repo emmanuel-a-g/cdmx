@@ -34,7 +34,6 @@ function Slider({data}) {
             }
             key={obj.id}
           >
-            <p className={styles.title}>{obj.title}</p>
             <img
               src={`./slider/${slideIndex}.jpg`}
               alt="random Image"

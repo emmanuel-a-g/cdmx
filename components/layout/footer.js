@@ -19,7 +19,7 @@ function Footer() {
         <p className={styles.story}>Contacto</p>
         <p className={styles.story}>Redes Sociales</p>
       </div>
-      <div className={styles.more}>more...</div>
+      <div className={styles.more}>Copyright 2022</div>
     </footer>
   );
 }
