@@ -1,11 +1,8 @@
 import styles from "./slider.module.css";
-import data from "./dataSlider";
 import { useState } from "react";
 import BtnSlider from "./btnSlider";
-//btn slider
-//data slider
 
-function Slider() {
+function Slider({data}) {
   const [slideIndex, setSlideIndex] = useState(1);
   const nextSlide = () => {
     if (slideIndex !== data.length) {

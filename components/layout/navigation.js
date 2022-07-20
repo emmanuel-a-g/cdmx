@@ -4,7 +4,7 @@ function Navigation() {
   return (
     <nav className={styles.nav}>
       <div className={styles.left}>
-        <img src="./logoDavid.png" width={100} className={styles.logo} />
+        <img src="./logo.png" width={100} className={styles.logo} />
       </div>
       <ul className={styles.listRight}>
         <li className={styles.item}>

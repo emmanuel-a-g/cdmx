@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
       <Layout>
         <Head>
           <meta charSet="UTF-8" />
-          <link rel="icon" href="/favico.png" />
+          <link rel="icon" href="/favicon.png" />
         </Head>
         <Component {...pageProps} />
       </Layout>
