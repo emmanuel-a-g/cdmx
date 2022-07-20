@@ -1,11 +1,12 @@
 import Head from "next/head";
+import ServiciosPage from "../components/home/serviciosPage";
 function Servicios() {
   return (
     <div>
       <Head>
         <title>Servicios</title>
       </Head>
-      <h1>Servicios</h1>
+      <ServiciosPage />
     </div>
   );
 }

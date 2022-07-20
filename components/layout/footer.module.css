@@ -1,14 +1,15 @@
 .footer {
-  min-height: 8vh;
+  min-height: 10vh;
 }
 .footerDiv {
   display: grid;
-  grid-template-columns: 25% auto 25% 25%;
+  grid-template-columns: 30% auto 25% 25%;
   grid-template-rows: 1;
 }
 .story {
   display: flex;
   justify-content: center;
+  padding-left: 3%;
 }
 .more {
   text-align: center;

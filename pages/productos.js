@@ -1,13 +1,14 @@
 import Head from "next/head";
+import ProductoPage from "../components/home/productoPage";
 function Productos() {
   return (
     <div>
       <Head>
-      <title>Productos</title>
+        <title>Productos</title>
       </Head>
-      <h1>Productos</h1>
+      <ProductoPage />
     </div>
-  )
+  );
 }
 
 export default Productos;

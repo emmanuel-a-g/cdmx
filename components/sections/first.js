@@ -3,10 +3,9 @@ function First() {
   return (
     <div className={styles.first}>
       <div className={styles.center}>
-        <h1>ALMA</h1>
+        <h1>DAVID</h1>
         <p className={styles.para}>
-          This is a work of art, use it and value it. Treasure the amount of
-          passion we put to the wood.
+         Este es un trabajo de arte hecho en mano desde la Ciudad de Mexico.
         </p>
       </div>
     </div>
