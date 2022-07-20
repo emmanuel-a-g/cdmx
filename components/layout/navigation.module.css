@@ -31,10 +31,10 @@
   height: auto;
 }
 
-@media only screen and (max-width: 900px)  {
+@media only screen and (max-width: 900px) {
   .nav {
     grid-template-columns: 20% auto;
-    font-size: .90rem;
+    font-size: 0.9rem;
   }
   .left {
     padding-left: 5%;

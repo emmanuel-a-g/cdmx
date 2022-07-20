@@ -1,0 +1,60 @@
+.horizontal {
+  height: 50vh;
+  background-color: inherit;
+  display: grid;
+  grid-template-columns: auto 24% 24% 24% 24% auto;
+  grid-template-rows: 1;
+  column-gap: 8px;
+}
+.imageDivOne {
+  background: url("/board/img5.jpeg") top no-repeat;
+  background-size: cover;
+}
+.imageDivTwo {
+  background: url("/board/img6.jpeg") center no-repeat;
+  background-size: cover;
+}
+.imageDivThree {
+  background: url("/board/img2.jpeg") center no-repeat;
+  background-size: cover;
+}
+.imageDivFour {
+  background: url("/board/img8.jpeg") center no-repeat;
+  background-size: cover;
+}
+.horizontal img {
+  width: 250px;
+  height: auto;
+  grid-row: 1 / span 1;
+}
+.card {
+  background-color: cadetblue;
+  display: grid;
+  grid-template-rows: 75% 25%;
+  grid-template-columns: 1;
+}
+.one {
+  grid-column: 2 / span 1;
+}
+.two {
+  grid-column: 3 / span 1;
+}
+.three {
+  grid-column: 4 / span 1;
+}
+.four {
+  grid-column: 5 / span 1;
+}
+.titulo {
+  grid-row: 2 / span 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.1rem;
+}
+.precio {
+  visibility: hidden;
+}
+.precioActive {
+  visibility: visible;
+}

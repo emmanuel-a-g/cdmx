@@ -1,0 +1,5 @@
+.topWrapper {
+  position: sticky;
+  z-index: 3;
+  top: 0;
+}

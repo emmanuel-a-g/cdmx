@@ -1,9 +1,12 @@
 import data from "../utils/dataSlider";
-import Slider from '../utils/slider';
+import Slider from "../utils/slider";
+import styles from "./carousel.module.css";
 function Carousel() {
   return (
-    <Slider data={data}/>
-  )
+    <div className={styles.carousel}>
+      <Slider data={data} />
+    </div>
+  );
 }
 
-export default Carousel; 
+export default Carousel;

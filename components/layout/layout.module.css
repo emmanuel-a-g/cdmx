@@ -2,6 +2,7 @@
   background-color: white;
   width: 100%;
   border-top: 2px rgb(199, 3, 3) solid;
+  position: relative;
 }
 .mainPage {
   min-height: 80vh;

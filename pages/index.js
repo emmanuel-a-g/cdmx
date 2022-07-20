@@ -3,7 +3,8 @@ import First from "../components/sections/first";
 import Showroom from "../components/sections/showroom";
 import TheSlider from "../components/sections/theSlider";
 import Carousel from "../components/sections/carousel";
-import Quote from "../components/sections/quote";
+import Quote from "../components/layout/quote";
+import HorizontalProducts from "../components/utils/horizontalProducts";
 
 function HomePage() {
   return (
@@ -11,11 +12,11 @@ function HomePage() {
       <Head>
         <title>Garcia: Taller | Creations</title>
       </Head>
-      <Quote />
       <First />
       <Carousel />
       <TheSlider />
       <Showroom />
+      <HorizontalProducts />
     </>
   );
 }

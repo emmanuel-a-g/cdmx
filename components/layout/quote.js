@@ -1,5 +1,4 @@
 import TextSlider from "../utils/textSlider";
-
 function Quote() {
   let data = [
     "1: helloooo",

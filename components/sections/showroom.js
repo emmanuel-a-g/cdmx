@@ -5,10 +5,12 @@ function Showroom() {
     <div className={styles.showroom}>
       <div className={styles.topLeft}></div>
       <div className={styles.topRight}>
-        <p>This is the product with cheese on it</p>
+        <h2>ARTE</h2>
+        <p>This is the product with citrus on it.</p>
       </div>
       <div className={styles.bottomLeft}>
-        <p>This is the product with chile on it</p>
+        <h2>PRECISION</h2>
+        <p>This is the product with cheese on it.</p>
       </div>
       <div className={styles.bottomRight}></div>
     </div>
