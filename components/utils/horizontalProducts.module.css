@@ -28,10 +28,11 @@
   grid-row: 1 / span 1;
 }
 .card {
-  background-color: cadetblue;
+  background-color: whitesmoke;
   display: grid;
   grid-template-rows: 75% 25%;
   grid-template-columns: 1;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.129);
 }
 .one {
   grid-column: 2 / span 1;

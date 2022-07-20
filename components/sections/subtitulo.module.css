@@ -1,0 +1,17 @@
+.subtitulo {
+  height: 20vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subtitulo h3 {
+  padding: 0;
+  margin: 2px;
+  font-size: 1.8rem;
+}
+/* .subtitulo p {} */
+.center {
+  height: 70%;
+  text-align: center;
+}

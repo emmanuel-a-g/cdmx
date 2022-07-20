@@ -3,8 +3,9 @@ import First from "../components/sections/first";
 import Showroom from "../components/sections/showroom";
 import TheSlider from "../components/sections/theSlider";
 import Carousel from "../components/sections/carousel";
-import Quote from "../components/layout/quote";
 import HorizontalProducts from "../components/utils/horizontalProducts";
+import Subtitulo from "../components/sections/subtitulo";
+import Nosotros from "../components/sections/nosotros";
 
 function HomePage() {
   return (
@@ -16,7 +17,9 @@ function HomePage() {
       <Carousel />
       <TheSlider />
       <Showroom />
+      <Subtitulo />
       <HorizontalProducts />
+      <Nosotros />
     </>
   );
 }

@@ -24,6 +24,7 @@ function HorizontalProducts() {
       <div
         className={`${styles.card} ${styles.one}`}
         onMouseEnter={() => showPrice("1")}
+        onMouseLeave={() => showPrice("1")}
       >
         <div className={styles.imageDivOne}></div>
         <div className={styles.titulo}>
@@ -34,6 +35,7 @@ function HorizontalProducts() {
       <div
         className={`${styles.card} ${styles.two}`}
         onMouseEnter={() => showPrice("2")}
+        onMouseLeave={() => showPrice("2")}
       >
         <div className={styles.imageDivTwo}></div>
         <div className={styles.titulo}>
@@ -44,6 +46,7 @@ function HorizontalProducts() {
       <div
         className={`${styles.card} ${styles.three}`}
         onMouseEnter={() => showPrice("3")}
+        onMouseLeave={() => showPrice("3")}
       >
         <div className={styles.imageDivThree}></div>
         <div className={styles.titulo}>
@@ -54,6 +57,7 @@ function HorizontalProducts() {
       <div
         className={`${styles.card} ${styles.four}`}
         onMouseEnter={() => showPrice("4")}
+        onMouseLeave={() => showPrice("4")}
       >
         <div className={styles.imageDivFour}></div>
         <div className={styles.titulo}>
