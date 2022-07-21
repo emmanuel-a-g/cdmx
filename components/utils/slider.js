@@ -38,7 +38,7 @@ function Slider({data}) {
               src={`./slider/${slideIndex}.jpg`}
               alt="random Image"
             />
-            <p className={styles.title} style={{top: obj.top}}>{obj.title}</p>
+            <p className={styles.title} style={{top: obj.top, color: obj.color}}>{obj.title}</p>
           </div>
         );
       })}

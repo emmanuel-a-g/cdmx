@@ -1,10 +1,11 @@
 .producto {
   background-color: whitesmoke;
-  height: 100vh;
+  max-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
 }
 .title {
   font-size: 2rem;
