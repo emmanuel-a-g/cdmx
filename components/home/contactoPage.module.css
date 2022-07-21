@@ -2,10 +2,15 @@
   background-color: whitesmoke;
   height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 .title {
   font-size: 2rem;
+}
+.info {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

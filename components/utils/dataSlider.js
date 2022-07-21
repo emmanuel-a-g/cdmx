@@ -1,10 +1,10 @@
 
 const data = [
   {
-    id: 1, title: "Inspire", subtitle: "garcia", top: "40%", color: "white"
+    id: 1, title: "Inspire", subtitle: "garcia", top: "40%", color: "black"
   },
   {
-    id: 2, title: "Dream", subtitle: "garcia", top: "45%", color: "black"
+    id: 2, title: "Dream", subtitle: "garcia", top: "45%", color: "white"
   },
   {
     id: 3, title: "Innovate", subtitle: "garcia", top: "50%", color: "white"

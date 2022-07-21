@@ -4,7 +4,7 @@ function Servicios() {
   return (
     <div>
       <Head>
-        <title>Servicios</title>
+        <title>DA-Wood: Servicios</title>
       </Head>
       <ServiciosPage />
     </div>

@@ -1,12 +1,17 @@
-.producto {
+.main {
   background-color: whitesmoke;
   max-height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   position: relative;
 }
 .title {
   font-size: 2rem;
+}
+.list {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }

@@ -13,7 +13,6 @@ function Footer() {
           los talentosos artesanos de la compañía, en nuestros propios talleres
           en México.
         </p>
-
         <p className={styles.story}></p>
         <p className={styles.story}>
           <Link href="/servicios">
@@ -37,7 +36,9 @@ function Footer() {
           </Link>
         </p>
       </div>
-      <div className={styles.more}>Copyright 2022</div>
+      <div className={styles.more}>
+        <a href="https://emmanuelgarcia.dev" target="_blank">copyright 2022 | By @EAG</a>
+      </div>
     </footer>
   );
 }

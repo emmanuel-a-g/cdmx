@@ -5,7 +5,7 @@
 }
 .footerDiv {
   display: grid;
-  grid-template-columns: 30% auto auto 15% 15%;
+  grid-template-columns: 35% auto auto 15% 15%;
   grid-template-rows: 1;
   height: 100%;
 }
@@ -13,11 +13,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 3%;
+  padding-left: 5%;
 }
 .more {
   text-align: center;
   height: 5vh;
+}
+.more > a {
+  text-decoration: none;
+  color: black;
 }
 .anchor {
   text-decoration: none;

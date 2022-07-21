@@ -4,7 +4,7 @@ function Contacto() {
   return (
     <div>
       <Head>
-        <title>Contacto</title>
+        <title>DA-Wood: Contacto</title>
       </Head>
       <ContactoPage />
     </div>

@@ -1,6 +1,6 @@
-.servicio {
+.main {
   background-color: whitesmoke;
-  height: 100vh;
+  max-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,4 +8,10 @@
 }
 .title {
   font-size: 2rem;
+}
+.info {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
