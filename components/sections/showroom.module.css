@@ -45,3 +45,11 @@
   background: url("/board/img6.jpeg") center no-repeat;
   background-size: cover;
 }
+@media only screen and (max-width: 900px) {
+  .topRight {
+    font-size: 1rem;
+  }
+  .bottomLeft {
+    font-size: 1rem;
+  }
+}

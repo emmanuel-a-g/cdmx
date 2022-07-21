@@ -11,7 +11,7 @@ function HomePage() {
   return (
     <>
       <Head>
-        <title>DA-Wood: Productos | Taller</title>
+        <title>DAE-Wood: Productos | Taller</title>
       </Head>
       <First />
       <TheSlider />

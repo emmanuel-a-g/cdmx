@@ -4,7 +4,7 @@ function Productos() {
   return (
     <div>
       <Head>
-        <title>DA-Wood: Productos</title>
+        <title>DAE-Wood: Productos</title>
       </Head>
       <ProductoPage />
     </div>
