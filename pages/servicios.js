@@ -4,7 +4,7 @@ function Servicios() {
   return (
     <div>
       <Head>
-        <title>DAE-Wood: Servicios</title>
+        <title>DAE-Madera: Servicios</title>
       </Head>
       <ServiciosPage />
     </div>

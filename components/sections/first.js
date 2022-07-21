@@ -5,7 +5,7 @@ function First() {
       <div className={styles.center}>
         <h1>TALLER DAE</h1>
         <p className={styles.para}>
-          En un rinconsito de la Ciudad de Mexico creamos trabajos base de
+          En un rinconcito de la Ciudad de Mexico creamos trabajos base de
           madera dignos de crear.
         </p>
       </div>

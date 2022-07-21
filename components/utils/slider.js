@@ -35,7 +35,7 @@ function Slider({data}) {
             key={obj.id}
           >
             <img
-              src={`./slider/${slideIndex}.jpg`}
+              src={`./board/img${slideIndex + 2}.jpeg`}
               alt="random Image"
             />
           </div>

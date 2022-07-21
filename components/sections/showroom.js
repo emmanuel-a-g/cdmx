@@ -6,7 +6,7 @@ function Showroom() {
       <div className={styles.topLeft}></div>
       <div className={styles.topRight}>
         <h2>CALIDAD</h2>
-        <p>El producto se amolda perfectamente a frutas citrosas.</p>
+        <p>El producto se amolda perfectamente a frutas citricas.</p>
       </div>
       <div className={styles.bottomLeft}>
         <h2>DISENO</h2>

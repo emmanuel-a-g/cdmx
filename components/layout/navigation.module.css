@@ -4,13 +4,13 @@
   padding: 0;
   width: 100%;
   display: grid;
-  grid-template-columns: 10% 50% auto;
+  grid-template-columns: 10% auto 50%;
   max-height: 10vh;
   font-size: 1.25rem;
   margin-bottom: -1px;
 }
 .listRight {
-  grid-column: 2 / span 1;
+  grid-column: 3 / span 1;
   display: flex;
   justify-content: space-around;
   align-items: center;

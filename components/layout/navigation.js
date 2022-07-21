@@ -1,6 +1,7 @@
 import styles from "./navigation.module.css";
 import Link from "next/link";
 function Navigation() {
+  //love wood
   return (
     <nav className={styles.nav}>
       <div className={styles.left}>
