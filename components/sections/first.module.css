@@ -14,15 +14,14 @@
   padding-left: 5%;
 }
 .center > h1{
-  padding: 0;
+  padding: 5px;
   margin: 0;
+  /* box-shadow: 5px 2px 5px 1px rgba(0, 0, 0, 0.335); */
 }
 .para {
   word-wrap: normal;
   width: 30%;
   font-size: 1.5rem;
-  box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.284);
-  border-radius: 5px;
-  background-color: rgba(245, 245, 245, 0.123);
+  box-shadow: 10px 25px 10px 2px rgba(0, 0, 0, 0.335);
   padding: 5px;
 }
