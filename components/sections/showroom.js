@@ -5,12 +5,12 @@ function Showroom() {
     <div className={styles.showroom}>
       <div className={styles.topLeft}></div>
       <div className={styles.topRight}>
-        <h2>ARTE</h2>
-        <p>This is the product with citrus on it.</p>
+        <h2>CALIDAD</h2>
+        <p>El producto se amolda perfectamente a frutas citrosas.</p>
       </div>
       <div className={styles.bottomLeft}>
-        <h2>PRECISION</h2>
-        <p>This is the product with cheese on it.</p>
+        <h2>DISENO</h2>
+        <p>O a un vino y queso.</p>
       </div>
       <div className={styles.bottomRight}></div>
     </div>
