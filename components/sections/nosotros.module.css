@@ -21,8 +21,9 @@
 }
 .leftDiv p {
   font-size: 1rem;
-  text-align: left;
+  text-align: center;
   padding-right: 5px;
+  width: 70%;
 }
 .rightDiv {
   grid-column: 2 / span 1;
@@ -44,5 +45,6 @@
   }
   .leftDiv p {
     font-size: 0.9rem;
+    text-align: left;
   }
 }
