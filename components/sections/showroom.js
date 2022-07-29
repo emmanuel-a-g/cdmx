@@ -6,11 +6,11 @@ function Showroom() {
       <div className={styles.topLeft}></div>
       <div className={styles.topRight}>
         <h2>CALIDAD</h2>
-        <p>El producto se amolda perfectamente a frutas citricas.</p>
+        <p>El producto se amolda perfectamente a tu tipo de evento.</p>
       </div>
       <div className={styles.bottomLeft}>
         <h2>DISENO</h2>
-        <p>O a un vino y queso.</p>
+        <p>Para frutas y sal o quesos.</p>
       </div>
       <div className={styles.bottomRight}></div>
     </div>
