@@ -11,10 +11,17 @@
   height: 100%;
   position: absolute;
   opacity: 0;
-  transition: opacity ease-in-out 0.5s;
+  /* transition: opacity ease-in-out 0.5s; */
+}
+.disactiveAnim {
+  left: 110%;
+  opacity: 0;
+  transition: 2s;
 }
 .activeAnim {
   opacity: 1;
+  left: 0;
+  transition: 1s;
 }
 .quote {
   display: flex;

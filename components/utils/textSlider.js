@@ -34,7 +34,7 @@ function TextSlider({ data }) {
             className={
               slideIndex === index + 1
                 ? `${styles.slide} ${styles.activeAnim}`
-                : styles.slide
+                : `${styles.slide} ${styles.disactiveAnim} `
             }
             key={index}
           >
