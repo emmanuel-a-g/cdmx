@@ -4,7 +4,7 @@
   position: relative;
 }
 .mainPage {
-  padding-top: 18vh;
+  padding-top: 17vh;
 }
 @media only screen and (max-width: 900px) {
   .main {

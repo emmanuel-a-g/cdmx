@@ -1,11 +1,17 @@
 import Navigation from "./navigation";
-import Quote from "./quote";
+import Carousel, { CarouselItem } from "../utils/carousel";
 import styles from "./topWrapper.module.css";
+
 function TopWrapper() {
   return (
     <div className={styles.topWrapper}>
       <Navigation />
-      <Quote />
+      <Carousel>
+        <CarouselItem>Inspire</CarouselItem>
+        <CarouselItem>Dream</CarouselItem>
+        <CarouselItem>Innovate</CarouselItem>
+        <CarouselItem>Execute</CarouselItem>
+      </Carousel>
     </div>
   );
 }
