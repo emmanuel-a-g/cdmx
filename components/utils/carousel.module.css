@@ -30,7 +30,7 @@
 .prev {
   all: unset;
   position: absolute;
-  left: 8vw;
+  left: 6vw;
   top: 3.5vh;
 }
 .prev:hover {
