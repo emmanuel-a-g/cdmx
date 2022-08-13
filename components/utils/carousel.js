@@ -28,7 +28,7 @@ function Carousel({ children }) {
   useEffect(() => {
     const timer = setInterval(() => {
       next();
-    }, 6000);
+    }, 5000);
     return () => clearInterval(timer);
 }, [index]);
 
