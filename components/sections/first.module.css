@@ -40,3 +40,12 @@
     align-self: flex-start;
   }
 }
+@media only screen and (max-width: 400px) {
+  .center > h1 {
+    padding: 15px;
+    font-size: 1.2rem;
+  }
+  .para {
+    font-size: 1.1rem;
+  }
+}
