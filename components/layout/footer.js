@@ -37,7 +37,7 @@ function Footer() {
         </p>
       </div>
       <div className={styles.more}>
-        <a href="https://emmanuelgarcia.dev" target="_blank">copyright 2022 | by @EAG</a>
+        <a href="https://emmanuelgarcia.dev" target="_blank">DAE 2022 | by @EAG</a>
       </div>
     </footer>
   );
