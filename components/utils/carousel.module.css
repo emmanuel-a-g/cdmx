@@ -2,7 +2,8 @@
   overflow: hidden;
   background-color: white;
   position: relative;
-  min-height: 8vh;
+  min-height: 7vh;
+  width: 100%;
 }
 .inner {
   white-space: nowrap;
@@ -12,7 +13,11 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 8vh;
+  height: 7vh;
+}
+.carouselItem h4 {
+  color: black;
+  font-size: 1.1rem;
 }
 /* .indicators {
   position: absolute;

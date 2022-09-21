@@ -22,7 +22,7 @@ export function CarouselItem({ children, width }) {
 //   );
 // })}
 // </div>
-function Carousel({ children }) {
+function Carousel({ children, buttons }) {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -30,7 +30,7 @@ function Carousel({ children }) {
       next();
     }, 5000);
     return () => clearInterval(timer);
-}, [index]);
+  }, [index]);
 
   const updateIndex = (newIndex) => {
     if (index < 0) {
@@ -58,12 +58,21 @@ function Carousel({ children }) {
           return React.cloneElement(child, { width: "100%" });
         })}
       </div>
-      <button className={styles.prev} onClick={prev}>
-        <img src="./left.png" alt="left arrow" width="16px" height="16px" />
-      </button>
-      <button className={styles.next} onClick={next}>
-        <img src="./right.png" alt="right arrow" width="16px" height="16px" />
-      </button>
+      {buttons && (
+        <React.Fragment>
+          <button className={styles.prev} onClick={prev}>
+            <img src="./left.png" alt="left arrow" width="16px" height="16px" />
+          </button>
+          <button className={styles.next} onClick={next}>
+            <img
+              src="./right.png"
+              alt="right arrow"
+              width="16px"
+              height="16px"
+            />
+          </button>
+        </React.Fragment>
+      )}
     </div>
   );
 }

@@ -2,9 +2,10 @@
   height: 50vh;
   background-color: inherit;
   display: grid;
-  grid-template-columns: auto 24% 24% 24% 24% auto;
-  grid-template-rows: 1;
-  column-gap: 8px;
+  grid-template-columns: 24% 24% 24% 24%;
+  column-gap: 1%;
+  width: 99%;
+  padding-left: 1%;
 }
 .imageDivOne {
   background: url("/board/img5.jpeg") top no-repeat;
@@ -23,7 +24,7 @@
   background-size: cover;
 }
 .horizontal img {
-  width: 250px;
+  width: 100%;
   height: auto;
   grid-row: 1 / span 1;
 }
@@ -31,20 +32,19 @@
   background-color: whitesmoke;
   display: grid;
   grid-template-rows: 75% 25%;
-  grid-template-columns: 1;
   box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.129);
 }
 .one {
-  grid-column: 2 / span 1;
+  grid-column: 1 / span 1;
 }
 .two {
-  grid-column: 3 / span 1;
+  grid-column: 2 / span 1;
 }
 .three {
-  grid-column: 4 / span 1;
+  grid-column: 3 / span 1;
 }
 .four {
-  grid-column: 5 / span 1;
+  grid-column: 4 / span 1;
 }
 .titulo {
   grid-row: 2 / span 1;
@@ -61,6 +61,6 @@
 }
 @media only screen and (max-width: 900px) {
   .titulo {
-    font-size: .90rem;
+    font-size: 0.9rem;
   }
 }
