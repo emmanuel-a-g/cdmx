@@ -6,7 +6,7 @@
       rgba(101, 101, 101, 0.42),
       rgba(242, 242, 242, 0)
     ),
-    url("/background.jpg") center no-repeat;
+    url("/backgroundTwo.jpg") center no-repeat;
   background-size: cover;
 }
 .center {
