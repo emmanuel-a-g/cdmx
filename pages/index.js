@@ -6,6 +6,7 @@ import Carousel from "../components/sections/carousel";
 import HorizontalProducts from "../components/utils/horizontalProducts";
 import Subtitulo from "../components/sections/subtitulo";
 import Nosotros from "../components/sections/nosotros";
+import VideoWrapper from "../components/sections/videoWrapper";
 
 function HomePage() {
   return (
@@ -14,6 +15,7 @@ function HomePage() {
         <title>DAE-Madera: Casa | Taller</title>
       </Head>
       <First />
+      <VideoWrapper />
       <TheSlider />
       <Showroom />
       <Carousel />
