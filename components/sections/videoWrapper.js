@@ -15,9 +15,9 @@ function VideoWrapper() {
         <iframe
           src="https://www.youtube.com/embed/6EUFXydn0f4?si=zzU_VByAVQl9IQSv"
           title="Gareba Taller"
-          frameborder="0"
+          className="border-0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
+          referrerPolicy="strict-origin-when-cross-origin"
           allowfullscreen
         ></iframe>
       </div>
